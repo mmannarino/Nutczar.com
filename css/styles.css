@@ -20,3 +20,25 @@ p {
 	text-align: center;
 	text-shadow: 2px 2px #000000;
 }
+
+iframe {
+	height:900px;
+	width:700px;
+	border-style: ridge ;
+	border-width: 5px;
+	border-color: white;
+	display:block;
+	margin-bottom:20px;
+}
+
+#column1 {
+	float:left;
+	margin-left:100px;
+
+}
+
+#column2 {
+	float:right;
+	margin-right:100px;
+}
+
