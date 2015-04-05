@@ -1,24 +1,36 @@
 body {
-	background-image: url("/i/background.jpg");
-    background-size:cover;
-
 }
 
 h1 {
 	font-size:72px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color:white;
+	font-family: 'Lobster', sans-serif;
+	color:black;
 	text-align: center;
-	text-shadow: 2px 2px #000000;
+	text-shadow: 2px 2px ##669900;
 
 }
 
 p {
 	font-size: 36px;
-	font-family: 'Source Sans Pro', sans-serif;
-	color:white;
+	font-family: 'Lobster', sans-serif;
+	color:black;
 	text-align: center;
-	text-shadow: 2px 2px #000000;
+	text-shadow: 2px 2px ##669900;
 }
+
+button {
+	text-align:center;
+	margin-bottom: 20px;
+}
+
+#div1, #div2, #div3, #div4 {
+	display:none;
+	width:400px;
+	float:left;
+	}
+
+
+
+
 
 
