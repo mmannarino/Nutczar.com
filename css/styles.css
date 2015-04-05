@@ -18,19 +18,32 @@ p {
 	text-shadow: 2px 2px ##669900;
 }
 
-button {
+#button {
 	text-align:center;
 	margin-bottom: 20px;
+}
+
+#clickaroo {
+  display: block;
+  height: 44px;
+  width: 200px;
+  background: url("/i/clickaroo.png") no-repeat 0 0;
+  margin:auto;
+ }
+
+ #clickaroo:hover { 
+  background-position: 0 -46px;
+}
+
+#clickaroo span {
+  position: absolute;
+  top: -999em;
 }
 
 #div1, #div2, #div3, #div4 {
 	display:none;
 	width:400px;
 	float:left;
+	padding: 5px;
 	}
-
-
-
-
-
 
